@@ -1,6 +1,6 @@
 from six import iteritems, string_types
 
-from elasticsearch.helpers import scan
+from elasticsearch1.helpers import scan
 
 from .query import Q, EMPTY_QUERY, Filtered
 from .filter import F, EMPTY_FILTER

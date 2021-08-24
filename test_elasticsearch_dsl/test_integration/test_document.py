@@ -1,7 +1,7 @@
 from datetime import datetime
 from pytz import timezone
 
-from elasticsearch import ConflictError, NotFoundError
+from elasticsearch1 import ConflictError, NotFoundError
 
 from elasticsearch_dsl import DocType, Date, String, construct_field, Mapping
 from elasticsearch_dsl.utils import AttrList

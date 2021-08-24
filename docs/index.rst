@@ -49,7 +49,7 @@ Let's have a typical search request written directly as a ``dict``:
 
 .. code:: python
 
-    from elasticsearch import Elasticsearch
+    from elasticsearch1 import Elasticsearch
     client = Elasticsearch()
 
     response = client.search(
@@ -93,7 +93,7 @@ Let's rewrite the example using the Python DSL:
 
 .. code:: python
 
-    from elasticsearch import Elasticsearch
+    from elasticsearch1 import Elasticsearch
     from elasticsearch_dsl import Search, Q
 
     client = Elasticsearch()

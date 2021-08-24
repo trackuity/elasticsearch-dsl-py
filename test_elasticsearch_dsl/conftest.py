@@ -2,8 +2,8 @@
 
 import os
 
-from elasticsearch.helpers.test import get_test_client, SkipTest
-from elasticsearch.helpers import bulk
+from elasticsearch1.helpers.test import get_test_client, SkipTest
+from elasticsearch1.helpers import bulk
 
 from pytest import fixture, yield_fixture, skip
 from mock import Mock
